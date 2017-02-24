@@ -1,0 +1,36 @@
+{
+  "name": "den",
+  "version": "1.0.0",
+  "description": "a minimal but versatile responsive css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszkups/den.git"
+  },
+  "keywords": [
+    "framework",
+    "css",
+    "css3",
+    "html",
+    "html5",
+    "grid",
+    "rwd"
+  ],
+  "author": "lukaszkups",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukaszkups/den/issues"
+  },
+  "homepage": "https://github.com/lukaszkups/den#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-cli": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
