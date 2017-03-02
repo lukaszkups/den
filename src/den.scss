@@ -20,4 +20,161 @@ body {
 button {
   padding: 10px 20px;
   border: 1px solid #121212;
+  border-radius: 2px;
+  background-color: transparent;
+  display: inline-block;
+  transition: background .3s ease, color .3s ease;
+}
+
+button:hover {
+  background-color: #121212;
+  color: #f9f9f9;
+  cursor: pointer;
+  transition: background .3s ease, color .3 ease;
+}
+
+.bg-gray {
+  background-color: #f9f9f9;
+}
+
+.bg-black {
+  background-color: #121212;
+}
+
+.bg-white {
+  background-color: #fefefe;
+}
+
+.text-gray {
+  color: #f9f9f9;
+}
+
+.text-black {
+  color: #121212;
+}
+
+.text-white {
+  color: #fefefe;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify, p {
+  text-align: justify;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.border {
+  border-size: 1px;
+  border-type: solid;
+}
+
+.box {
+  display: inline-block;
+  clear: none;
+  padding: 0 0.25% 0 0;
+  vertical-align: top;
+}
+
+.box::before {
+  content: " ";
+}
+
+.box-100 {
+  @extend .box;
+  width: 99.5%; 
+}
+
+.box-75 {
+  @extend .box;
+  width: 74.5%
+}
+
+.box-70 {
+  @extend .box;
+  width: 69.5%;
+}
+
+.box-50 {
+  @extend .box;
+  width: 49.5%;
+}
+
+.box-33 {
+  @extend .box;
+  width: 32.5%;
+  max-width: 32.5%;
+  min-width: 32.5%;
+}
+
+.box-30 {
+  @extend .box;
+  width: 29.5%;
+}
+
+.box-25 {
+  @extend .box;
+  width: 24.5%;
+}
+
+.box-10 {
+  @extend .box;
+  width: 9.5%;
+}
+
+.box-5 {
+  @extend .box;
+  width: 4.5%;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-center{
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, textarea, select, input.box, textarea.box, select.box{
+  border: 1px solid #6f6f6f;
+  border-radius: 3px;
+  padding: 9px 15px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+input[type="checkbox"], input[type="checkbox"].box{
+  margin-top: 15px;
+}
+
+label, label.box{
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.form-group, .form-group.box{
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
 }
